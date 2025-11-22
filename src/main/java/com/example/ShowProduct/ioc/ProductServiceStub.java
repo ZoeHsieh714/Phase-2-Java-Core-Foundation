@@ -1,4 +1,4 @@
-package com.example.ShowProduct;
+package com.example.ShowProduct.ioc;
 
 //使用我們自定義的註解標記這個類別
 @MyComponent

@@ -1,4 +1,4 @@
-package com.example.ShowProduct;
+package com.example.ShowProduct.ioc;
 
 import java.lang.annotation.*;
 

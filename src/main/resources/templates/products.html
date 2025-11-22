@@ -27,7 +27,8 @@
     </thead>
     <tbody>
     <tr th:each="product : ${allProducts}">
-        <td th:text="${product.productName}"></td> <td th:text="${product.category}"></td>
+        <td th:text="${product.productName}"></td>
+        <td th:text="${product.category}"></td>
         <td th:text="${product.price}"></td>
     </tr>
     </tbody>
@@ -44,7 +45,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="book : ${books}">
+    <tr th:each="book : ${inStockBooks}">
         <td th:text="${book.productName}"></td>
         <td th:text="${book.category}"></td>
         <td th:text="${book.price}"></td>

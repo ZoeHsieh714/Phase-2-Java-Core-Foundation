@@ -1,4 +1,4 @@
-package com.example.ShowProduct;
+package com.example.ShowProduct.service;
 
 import jakarta.annotation.PostConstruct; // Spring Boot 3+ 使用jakarta
 import jakarta.annotation.PreDestroy;

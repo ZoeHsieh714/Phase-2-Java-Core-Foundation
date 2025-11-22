@@ -1,9 +1,12 @@
 package com.example.ShowProduct;
 
+import com.example.ShowProduct.ioc.SimpleIocContainer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean; //必須引入@Bean
+import com.example.ShowProduct.service.LifecycleDemoBean;
+import com.example.ShowProduct.ioc.ProductServiceStub;
 
 @SpringBootApplication
 public class ShowProductApplication {

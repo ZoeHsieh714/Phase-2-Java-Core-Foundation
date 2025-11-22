@@ -1,4 +1,4 @@
-package com.example.ShowProduct;
+package com.example.ShowProduct.ioc;
 
 //這是我們模擬Spring核心邏輯的類別
 public class SimpleIocContainer {
