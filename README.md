@@ -1,6 +1,4 @@
-# Phase 2: Spring Data JPA 實戰與數據持久化 
-
-## (Phase 2: Spring Data JPAの実践とデータ統合)
+# Phase 2: Spring Data JPA 實戰與數據持久化 (Spring Data JPAの実践とデータ統合)
 
 本階段將專案從使用靜態 Mock 數據升級為整合 **Spring Data JPA** 和 **H2 內嵌資料庫**。我們實現了完整的持久化層，使應用程式能夠在啟動時載入數據、並透過 Repository 介面操作資料庫。
 
